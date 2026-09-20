@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="t">
+  <title id="t">Q版作品預留區</title><rect width="520" height="520" rx="24" fill="#f4cf62"/>
+  <path d="M55 89h410v342H55z" fill="#dff2ed" stroke="#1c1720" stroke-width="7"/>
+  <circle cx="260" cy="225" r="112" fill="#fffaf5" stroke="#1c1720" stroke-width="8"/>
+  <path d="M156 227c-3-101 60-155 117-144 77 14 112 76 92 160-60-53-141-57-209-16z" fill="#db3d70" stroke="#1c1720" stroke-width="8"/>
+  <circle cx="224" cy="240" r="10"/><circle cx="303" cy="240" r="10"/><path d="M238 284c17 14 34 14 50 0" fill="none" stroke="#1c1720" stroke-width="8" stroke-linecap="round"/>
+  <path d="M197 342h126l44 89H153z" fill="#91cfc3" stroke="#1c1720" stroke-width="8"/>
+  <text x="82" y="477" font-family="monospace" font-size="17" fill="#1c1720">CHIBI ART PLACEHOLDER</text>
+</svg>

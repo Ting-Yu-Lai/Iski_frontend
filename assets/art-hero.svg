@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="t d">
+  <title id="t">代表作品預留區</title><desc id="d">請替換成 Iskï 的主視覺角色插畫</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8cad8"/><stop offset="1" stop-color="#91cfc3"/></linearGradient></defs>
+  <rect width="720" height="900" fill="url(#g)"/><circle cx="585" cy="140" r="130" fill="#f4cf62" opacity=".9"/>
+  <path d="M92 745c94-183 183-224 270-196 69 23 133 98 265 77v274H92z" fill="#9e1f4b" opacity=".86"/>
+  <circle cx="351" cy="318" r="144" fill="#fffaf5" stroke="#1c1720" stroke-width="10"/>
+  <path d="M217 296c17-119 90-172 169-154 61 14 118 74 117 175-48-51-88-66-142-38-50-34-87-25-144 17z" fill="#db3d70" stroke="#1c1720" stroke-width="10"/>
+  <circle cx="300" cy="328" r="12" fill="#1c1720"/><circle cx="410" cy="328" r="12" fill="#1c1720"/>
+  <path d="M322 392c22 18 46 18 69 0" fill="none" stroke="#1c1720" stroke-width="10" stroke-linecap="round"/>
+  <path d="M254 462c57 49 161 50 211-2l69 273H181z" fill="#f8f1e9" stroke="#1c1720" stroke-width="10"/>
+  <text x="40" y="55" font-family="monospace" font-size="18" fill="#1c1720">REPLACE WITH YOUR ARTWORK / 01</text>
+</svg>

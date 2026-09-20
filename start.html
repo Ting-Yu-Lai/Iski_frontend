@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="開始 Iskï 插畫委託，整理角色資料與需求。">
+<title>開始委託 — Iskï</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;600;700&family=Unbounded:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer>
+</script>
+</head>
+<body data-page="start">
+<a class="skip-link" href="#main">跳到主要內容</a>
+<div class="grain" aria-hidden="true">
+</div>
+<header class="site-header">
+<a class="brand" href="index.html">
+<img src="assets/avatar.png" alt="Iskï 插畫頭像">
+<span>Iskï</span>
+</a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+<span>
+</span>
+<span>
+</span>
+<span>
+</span>
+<span class="sr-only">開啟選單</span>
+</button>
+<nav id="site-nav" class="site-nav" aria-label="主要導覽">
+<a data-nav="works" href="works.html">作品</a>
+<a data-nav="commissions" href="commissions.html">委託方案</a>
+<a data-nav="process" href="process.html">流程</a>
+<a data-nav="rules" href="rules.html">規範</a>
+<a class="nav-cta active" aria-current="page" href="start.html">開始委託 ↗</a>
+</nav>
+</header>
+<main id="main">
+<section class="page-hero section-shell">
+<span class="eyebrow">START A COMMISSION</span>
+<h1>開始委託<br>
+<em>需求資料表</em>
+</h1>
+<p>填寫下方內容後可產生一份完整委託摘要，再透過 Email 或 Discord 傳送。</p>
+</section>
+<section class="section-shell page-content start-layout">
+<div class="start-progress" aria-label="委託步驟">
+<span class="current">1 準備需求</span>
+<span>2 聯絡確認</span>
+<span>3 正式報價</span>
+</div>
+<form class="commission-form" id="commission-form">
+<fieldset>
+<legend>
+<span>01</span>基本資料</legend>
+<label for="client-name">你的稱呼</label>
+<input id="client-name" name="name" required autocomplete="name">
+<label for="contact-way">希望的聯絡方式</label>
+<select id="contact-way" name="contact">
+<option>Email</option>
+<option>Discord</option>
+<option>Instagram</option>
+<option>X</option>
+</select>
+</fieldset>
+<fieldset>
+<legend>
+<span>02</span>委託內容</legend>
+<label for="plan">方案</label>
+<select id="plan" name="plan" required>
+<option value="">請選擇</option>
+<option value="正比客製化">正比客製化</option>
+<option value="正比驚喜包">正比驚喜包</option>
+<option value="Q版人物">Q版人物</option>
+<option value="三視圖">三視圖</option>
+<option value="Q版貼圖">Q版貼圖</option>
+<option value="其他／不確定">其他／不確定</option>
+</select>
+<label for="scope">委託範圍</label>
+<select id="scope" name="scope">
+<option>原創</option>
+<option>二創</option>
+<option>BL</option>
+<option>GL</option>
+<option>夢向</option>
+<option>Furry</option>
+<option>血腥</option>
+<option>其他</option>
+</select>
+<label for="description">角色與畫面描述</label>
+<textarea id="description" name="description" rows="6" required placeholder="角色個性、姿勢、表情、希望的氣氛……">
+</textarea>
+</fieldset>
+<fieldset>
+<legend>
+<span>03</span>用途與資料</legend>
+<label for="usage">使用目的</label>
+<select id="usage" name="usage">
+<option>個人非商用</option>
+<option>非營利同人</option>
+<option>商業使用</option>
+<option>不確定</option>
+</select>
+<label for="reference">參考資料連結</label>
+<input id="reference" name="reference" type="url" placeholder="https://">
+<label for="notes">期限與其他備註</label>
+<textarea id="notes" name="notes" rows="4">
+</textarea>
+</fieldset>
+<label class="check-row">
+<input type="checkbox" required>
+<span>我已閱讀並同意<a href="rules.html">委託規範</a>。</span>
+</label>
+<button class="button button-primary form-submit" type="submit">產生委託摘要 →</button>
+</form>
+<aside class="brief-preview">
+<span class="eyebrow">COMMISSION BRIEF</span>
+<h2>委託摘要</h2>
+<pre id="brief-output">填寫左側內容後，這裡會產生可以直接寄出的委託摘要。</pre>
+<button class="button button-ghost" type="button" data-copy-brief disabled>複製摘要</button>
+<a class="button button-primary disabled" id="email-brief" aria-disabled="true" href="#">用 Email 傳送</a>
+<p class="copy-status" role="status" aria-live="polite">
+</p>
+<div class="discord-box">
+<span>DISCORD</span>
+<strong>iski_i</strong>
+<button type="button" data-copy="iski_i">複製帳號</button>
+</div>
+</aside>
+</section>
+</main>
+<footer class="site-footer section-shell">
+<div>
+<strong>Iskï</strong>
+<span>Freelance Illustrator</span>
+</div>
+<div class="social-links">
+<a href="works.html">作品</a>
+<a href="commissions.html">方案</a>
+<a href="rules.html">規範</a>
+</div>
+<small>© 2026 Iskï.</small>
+</footer>
+</body>
+</html>
+
